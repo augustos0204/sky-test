@@ -28,6 +28,11 @@ export const GlobalStyles = createGlobalStyle`
         height: 100%;
     }
 
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
     .container{
         width: 1000px;
         min-height: 10px;
