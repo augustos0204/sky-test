@@ -34,7 +34,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .container{
-        width: 1000px;
+        width: 1200px;
         min-height: 10px;
         height: auto;
         margin-left: auto;

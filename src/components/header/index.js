@@ -15,6 +15,7 @@ import darkModeLogo from "../../assets/dark-mode.svg";
 import playIcon from "../../assets/play-button.svg";
 import userIcon from "../../assets/user.svg";
 import searchIcon from "../../assets/loupe.svg";
+import acessibilyIcon from "../../assets/acessibily.png";
 
 const Header = () => {
     const History = useHistory();
@@ -34,6 +35,9 @@ const Header = () => {
                     <FigureLogo id="FigureLogo" onClick={redirectHome}>
                         <img src={skyLogo} alt="Sky Logotipo" title="Sky Logotipo"/>
                     </FigureLogo>
+                    <ContainerHeaderButtons>
+                        <img src={acessibilyIcon} alt="Acessibility Icon" title="Acessibility Icon"/>
+                    </ContainerHeaderButtons>
                     <ContainerHeaderButtons>
                         <img src={darkModeLogo} alt="Dark-mode icon" title="Dark-mode icon"/>
                     </ContainerHeaderButtons>
