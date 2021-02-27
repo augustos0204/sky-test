@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import {ApiMovies} from "../../services/api";
+import {Session} from "../../components/filmsSession";
 
 const getApiData = async () => {
     const response = await (await (ApiMovies())).data;
@@ -25,7 +26,9 @@ const HomePage = () => {
     return (
         <container>
             <Header/>
-
+                <container>
+                    <Session/>
+                </container>
             <Footer/>
         </container>
     );
